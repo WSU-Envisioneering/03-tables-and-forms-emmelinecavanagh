@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+
+  <h1>Sample Input Form</h1>
+  <form action="#" method="post">
+    <label for="textInput">Text Input:</label>
+    <input type="text" id="textInput" name="textInput" required>
+
+    <label for="emailInput">Email Input:</label>
+    <input type="email" id="emailInput" name="emailInput" required>
+
+    <label>Radio Options:</label>
+    <div class="radio-group">
+      <label><input type="radio" name="option" value="Option1" required> Option 1</label>
+      <label><input type="radio" name="option" value="Option2"> Option 2</label>
+    </div>
+
+    <label for="dateInput">Date Input:</label>
+    <input type="date" id="dateInput" name="dateInput" required>
+
+    <label for="selectBox">Select an Option:</label>
+    <select id="selectBox" name="selectBox" required>
+      <option value="">-- Please choose an option --</option>
+      <option value="OptionA">Option A</option>
+      <option value="OptionB">Option B</option>
+      <option value="OptionC">Option C</option>
+      <option value="OptionD">Option D</option>
+      <option value="OptionE">Option E</option>
+    </select>
+
+    <label for="textArea">Additional Comments:</label>
+    <textarea id="textArea" name="textArea" rows="4"></textarea>
+
+    <div class="button-group">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+
+</body>
+</html>
